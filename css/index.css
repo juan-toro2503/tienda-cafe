@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height:auto ;
+    border-bottom: 1px solid;
+   
+}
+.nav{
+    width: 100%;
+    height:auto;
+    
+}
+.container-menu{
+    width: 100%;
+    height:0px;
+    padding-top: 0px;;
+   background:#00D084;
+  display:flex;
+  justify-content: space-around;
+}
+
+.container-menu .item-menu{
+    padding: 5px;
+    border-radius:5px;
+    background-color: #02c47d;
+    margin-top: 60px;
+    
+}
+.container-menu .item-menu:hover{
+    padding: 5px;
+    border-radius:5px;
+    
+    background-color: #03b674;
+    
+}
+.container-menu a{
+    text-decoration: none;
+    
+    color: black;
+   
+}
+.container-menu img{
+    margin-top:0px;
+    width: 180px;
+    height:150px;
+   
+}
+.logo-login{
+
+    margin-top:15px;
+    margin-right: -1em;;
+    font-size: 40px;
+   height:80px;
+   width: 80px;
+   border-radius:50%;
+    background-color: rgb(117, 230, 154);
+    text-align: center;
+    
+    
+}
+.logo-login i{
+    margin-top: 15px;
+}
+.logo-login img{
+    display: none;
+
+}
+.wave-header{
+    width: 100%;
+    height:240px;
+    background-image: url(../recursos/wave-header.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.nav-responsive{
+    display: none;
+}
+.section{
+    width: 100%;
+    height: 300px;
+    background-color:red;
+}
+.footer {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid;
+}
+.wave-footer{
+    width: 100%;
+        height:240px;
+        background-image: url(../recursos/wave-footer.svg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+
+}
+.info-footer{
+    width:100%;
+    height:140px;
+    background:#353535;
+}
+@media screen and (max-width:1200px){
+    .container-menu .item-menu{
+        padding: 5px;
+        border-radius:5px;
+        background-color: #02c47d;
+        margin-top: 50px;
+        
+    }
+    .logo-login{
+
+        margin-top:25px;
+        margin-right: -15px;;
+        font-size: 30px;
+       height:60px;
+       width: 60px;
+       border-radius:50%;
+        background-color: rgb(117, 230, 154);
+        text-align: center;
+        
+        
+    }
+    .logo-login i{
+        margin-top: 10px;
+    }
+    .logo-login img{
+        display: none;
+    
+    }
+    .wave-header{
+        width: 100%;
+        height:220px;
+        background-image: url(../recursos/wave-header.svg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+    .nav-responsive{
+        display: none;
+    }
+    .section{
+        width: 100%;
+        height: 300px;
+        background-color:red;
+    }
+    .footer {
+        width: 100%;
+        height: auto;
+        border-top: 1px solid;
+    }
+    .wave-footer{
+        width: 100%;
+            height:220px;
+            background-image: url(../recursos/wave-footer.svg);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+    
+    }
+    .info-footer{
+        width:100%;
+        height:140px;
+        background:#353535;
+    }
+
+}
+
+
+@media screen and (max-width:992px){
+    .header{
+        height:auto;
+
+    }
+    .nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+        width: 100%;
+        height:auto;
+        
+    }
+    .container-logo-responsive{
+        width: 100%;
+        height:120px;
+        background:#00D084;
+       
+      display:flex;
+      justify-content: space-between;
+    }
+    .container-logo-responsive .logo-menu{
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    .logo-nav-responsive{
+        background-color: #00D084;
+        position: relative;
+        z-index: 2;
+    }
+    .container-logo-responsive .logo-login{
+
+        margin-top:10px;
+        margin-right: 10px;;
+        font-size: 30px;
+       height:70px;
+       width: 70px;
+       border-radius:50%;
+        background-color: rgb(117, 230, 154);
+        text-align: center;
+        
+        
+    }
+    .logo-login i{
+        margin-top: 18px;
+    }
+    .logo-login img{
+        display: none;
+
+    }
+ 
+    .nav-responsive .logo-nav-responsive{
+        width: 170px;
+        height: 120px;
+        
+        
+
+
+    }
+    .nav-responsive .container-menu-responsive{
+        width: 100%;
+        height:0px;
+        background-color:#00D084;
+        overflow: hidden;
+        display:flex;
+        font-size:11px;
+        justify-content:space-around;
+        transition: all 0.7s;
+        align-items:flex-end;
+
+
+    }
+    
+    .nav-responsive:hover> .container-menu-responsive{
+        height:40px;
+        background-color:#00D084;
+     
+
+    }
+    .container-menu-responsive a{
+        text-decoration:none;
+        color:black;
+        padding: 5px;
+        border-radius:5px;
+        background-color: #02c47d;
+        font-size:21px;
+    }
+    
+    .nav-responsive .wave-header{
+        width: 100%;
+        height:170px;
+        background-image: url(../recursos/wave-header.svg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+
+
+
+
+    .wave-footer{
+        width: 100%;
+            height:180px;
+            background-image: url(../recursos/wave-footer.svg);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+    
+    }
+    .info-footer{
+        width:100%;
+        height:120px;
+        
+    }
+
+}
+
+
+@media screen and (max-width:770px){
+    .header{
+        height:auto;
+
+    }
+    .nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+        width: 100%;
+        height:auto;
+        
+    }
+    .container-logo-responsive{
+        width: 100%;
+        height:100px;
+        background:#00D084;
+       
+      display:flex;
+      justify-content: space-between;
+    }
+    .container-logo-responsive .logo-menu{
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 35px;
+    }
+    .container-logo-responsive .logo-login{
+
+        margin-top:10px;
+        margin-right: 10px;;
+        font-size: 30px;
+       height:70px;
+       width: 70px;
+       border-radius:50%;
+        background-color: rgb(117, 230, 154);
+        text-align: center;
+        
+        
+    }
+    .logo-login i{
+        margin-top: 18px;
+    }
+    .logo-login img{
+        display: none;
+
+    }
+ 
+    .nav-responsive .logo-nav-responsive{
+        width: 140px;
+        height: 100px;
+        
+        
+
+
+    }
+    .nav-responsive .container-menu-responsive{
+        width: 100%;
+        height:0px;
+        background-color:#00D084;
+        overflow: hidden;
+        display:flex;
+
+        justify-content:space-around;
+        transition: all 0.7s;
+        align-items:flex-end;
+
+
+    }
+    
+    .nav-responsive:hover> .container-menu-responsive{
+        height:35px;
+        background-color:#00D084;
+     
+
+    }
+    .container-menu-responsive a{
+        text-decoration:none;
+        color:black;
+        padding: 5px;
+        border-radius:5px;
+        background-color: #02c47d;
+        font-size:18px
+    }
+    
+    .nav-responsive .wave-header{
+        width: 100%;
+        height:140px;
+        background-image: url(../recursos/wave-header.svg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+
+
+
+
+    .wave-footer{
+        width: 100%;
+            height:140px;
+            background-image: url(../recursos/wave-footer.svg);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+    
+    }
+    .info-footer{
+        width:100%;
+        height:100px;
+        
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .header{
+        height:auto;
+
+    }
+    .nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+        width: 100%;
+        height:auto;
+        
+    }
+    .container-logo-responsive{
+        width: 100%;
+        height:70px;
+
+       
+      display:flex;
+      justify-content: space-between;
+    }
+    .logo-nav-responsive{
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .container-logo-responsive .logo-menu{
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    .container-logo-responsive .logo-login{
+
+        margin-top:5px;
+        margin-right: 5px;;
+        font-size: 23px;
+       height:40px;
+       width: 40px;
+       border-radius:50%;
+        background-color: rgb(117, 230, 154);
+        text-align: center;
+        
+        
+    }
+    .logo-login i{
+        margin-top: 7px;
+    }
+    .logo-login img{
+        display: none;
+
+    }
+ 
+    .nav-responsive .logo-nav-responsive{
+        width: 90px;
+        height: 80px;
+        
+        
+
+
+    }
+    .nav-responsive .container-menu-responsive{
+        width: 100%;
+        height:0px;
+        background-color:#00D084;
+        overflow: hidden;
+        display:flex;
+        font-size:11px;
+        justify-content:space-around;
+        transition: all 0.7s;
+        align-items:flex-end;
+
+
+    }
+    
+    .nav-responsive:hover> .container-menu-responsive{
+        height:25px;
+        background-color:#00D084;
+     
+
+    }
+    .container-menu-responsive a{
+        text-decoration:none;
+        color:black;
+        padding: 2px;
+        border-radius:3px;
+        background-color: #02c47d;
+        font-size:11px;
+    }
+    
+    .nav-responsive .wave-header{
+        width: 100%;
+        height:100px;
+        background-image: url(../recursos/wave-header.svg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+
+
+    .wave-footer{
+        width: 100%;
+            height:100px;
+            background-image: url(../recursos/wave-footer.svg);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+    
+    }
+    .info-footer{
+        width:100%;
+        height:80px;
+        background:#353535;
+    }
+    
+
+
+}
+@media screen and (max-width:400px){
+    .nav-responsive .wave-header{
+        width: 100%;
+        height:70px;
+        background-image: url(../recursos/wave-header.svg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+
+
+    .wave-footer{
+        width: 100%;
+            height:70px;
+            background-image: url(../recursos/wave-footer.svg);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+    
+    }
+    .info-footer{
+        width:100%;
+        height:70px;
+        background:#353535;
+    }
+
+}
